@@ -9,7 +9,8 @@ A comprehensive node for ComfyUI that implements an image reference mechanism fo
 - Combine visual features from reference latents with text conditioning 将参考潜空间的视觉特征与文本条件相结合
 - Dynamic fusion of visual and textual features for enhanced generation 动态融合视觉和文本特征以增强生成效果
 - Adjustable strength parameter to control influence of reference images 可调节强度参数以控制参考图像的影响
-- 
+<img src="https://github.com/naku-yh/ComfyUI_Flux2ImageReference/blob/main/pic_1/Simple%20Workflow.png" alt="FLUX2 Image Reference Node Example" width="500"/>
+
 
 ## Installation 安装
 
@@ -24,7 +25,7 @@ git clone https://github.com/naku-yh/ComfyUI_Flux2ImageReference.git
 重启 ComfyUI
 
 ## Usage 使用方法
-
+<img src="https://github.com/naku-yh/ComfyUI_Flux2ImageReference/blob/main/pic_1/SimpleNode.png" alt="FLUX2 Image Reference Node Example" width="500"/>
 ### Node Inputs 节点输入
 
 - `vae`: VAE model to encode reference images (connect from a VAE loader node)
