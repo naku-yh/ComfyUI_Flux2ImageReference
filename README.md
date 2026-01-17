@@ -9,6 +9,7 @@ A comprehensive node for ComfyUI that implements an image reference mechanism fo
 - Combine visual features from reference latents with text conditioning 将参考潜空间的视觉特征与文本条件相结合
 - Dynamic fusion of visual and textual features for enhanced generation 动态融合视觉和文本特征以增强生成效果
 - Adjustable strength parameter to control influence of reference images 可调节强度参数以控制参考图像的影响
+- 
 
 ## Installation 安装
 
@@ -16,7 +17,7 @@ A comprehensive node for ComfyUI that implements an image reference mechanism fo
 将此仓库克隆到您的 ComfyUI `custom_nodes` 目录中：
 ```bash
 cd ComfyUI/custom_nodes
-git clone https://github.com/yourusername/ComfyUI_Flux2ImageReference.git
+git clone https://github.com/naku-yh/ComfyUI_Flux2ImageReference.git
 ```
 
 2. Restart ComfyUI
@@ -81,8 +82,6 @@ The node works by:
   当未提供条件时，节点仅基于参考潜空间创建条件
 - Compatible with Flux2-based models and other diffusion models that accept conditioning
   兼容基于Flux2的模型和接受条件的其他扩散模型
-- Updated to ComfyUI_Flux2ImageReference: Changed node name and category to NakuNode_Flux2
-  更新为ComfyUI_Flux2ImageReference：将节点名称和类别更改为NakuNode_Flux2
 
 ## License 许可证
 
