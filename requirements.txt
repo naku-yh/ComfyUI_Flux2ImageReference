@@ -1,2 +1,0 @@
-# ComfyUI_LTX_AIO_Latent Requirements
-# No additional packages required beyond standard ComfyUI dependencies
